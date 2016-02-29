@@ -14,3 +14,5 @@ git add .
 git commit -m "Init copmmit"
 git push -u origin master
 npm install express --save
+
+heroku create
