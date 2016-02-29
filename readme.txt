@@ -15,4 +15,15 @@ git commit -m "Init copmmit"
 git push -u origin master
 npm install express --save
 
-heroku create
+heroku create app
+heroku rename amh-sockets
+
+git push heroku master
+
+heroku open 
+or
+https://amh-sockets.herokuapp.com/
+
+
+***
+git push -u origin master
